@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+    <script></script>
+  </head>
+  <body>
+
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
+
+    <div class="main-con">
+
+    <nav class="nav-bar">
+      <div class="portfolio">
+        <a href="/">
+          <span class="logo-span">&lt;/</span>
+          <span class="logo-text">Portfolio</span>
+          <span class="logo-span">&gt;</span>
+        </a>
+      </div>
+
+      <div class="mobile-icon" onclick="toggleMenu()">☰</div>
+
+      <div class="nav-items">
+        <li><a href="#contents" class="nav-link">Home</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <!-- <li><a href="#contact" class="nav-link">Contact</a></li> -->
+      </div>
+
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="#contents" class="mobile-link" onclick="toggleMenu()">Home</a>
+        <a href="#skills" class="mobile-link" onclick="toggleMenu()">Skills</a>
+
+        <a href="#education" class="mobile-link" onclick="toggleMenu()"
+          >Education</a
+        >
+
+        <a href="#projects" class="mobile-link" onclick="toggleMenu()"
+          >Projects</a
+        >
+
+        <a
+          href="https://github.com/Lokeshvenkateshan"
+          target="_blank"
+          class="github-button"
+          >Github Profile</a
+        >
+      </div>
+    </nav>
+
+    <div id="contents">
+      <div class="main">
+        <div class="bio1">
+          <h3>Hi, I am</h3>
+          <h1>Lokesh V</h1>
+          <h4>I am a <span id="typed-text"></span></h4>
+          <p>
+            &nbsp; &nbsp;I am a passionate Web Developer specializing in
+            creating responsive and user-friendly websites. With knowledge in
+            React, JavaScript, and backend technologies, I build seamless
+            digital experiences. I focus on performance, design, and
+            functionality to deliver high-quality solutions. Always eager to
+            learn and innovate, I strive to turn ideas into reality.
+          </p>
+          <div class="bio1-btn">
+            <a href="linkedin.com"><button class="btn">Connect</button></a>
+            <a href="Lokesh Resume.pdf" download="Resume"
+              ><button class="btn">Download cv</button></a
+            >
+          </div>
+        </div>
+        <div class="bio2">
+          <div class="lokesh">
+            <img src="./images/lokesh2.jpg" alt="user" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="skills">
+      <div class="skills-section">
+        <center><h3 class="heading">Skills</h3></center>
+
+        <div class="skills-outer"> 
+
+          <div class="skill-container">
+            <center><h3 class="skill-heading">Frontend</h3></center>
+            <div class="skills-box">
+              
+              <div class="box first">
+                <img src="./skillimg/html-5.png" alt="photo" />
+                <p>HTML</p>
+              </div>
+
+              <div class="box second" >
+                <img src="./skillimg/css-3.png" alt="photo" />
+                <p>CSS</p>
+              </div>
+
+              <div class="box second">
+                <img src="./skillimg/js.png" alt="photo" />
+                <p>Javascript</p>
+              </div>
+
+              <div class="box first ">
+                <img src="./skillimg/bootstrap.png" alt="photo" />
+                <p>Bootstrap</p>
+              </div>
+
+              <div class="box first">
+                <img src="./skillimg/react.png" alt="photo" />
+                <p>React</p>
+              </div>
+
+              
+            </div>
+
+
+          </div>
+
+
+          <div class="skill-container">
+            <center><h3 class="skill-heading">Backend</h3></center>
+            <div class="skills-box">
+              
+
+              <div class="box first">
+                <img src="./skillimg/nodejs.png" alt="photo" />
+                <p>Node Js</p>
+              </div>
+
+              <div class="box second">
+                <img src="./skillimg/mysql.png" alt="photo" />
+                <p>MySQL</p>
+              </div>
+
+              <div class="box second">
+                <img src="./skillimg/mongodb.png" alt="photo" />
+                <p>Mongo DB</p>
+              </div>
+
+              <div class="box first">
+                <img src="./skillimg/firebase.png" alt="photo" />
+                <p>Firebase</p>
+              </div>
+
+              
+            </div>
+
+          </div>
+
+
+          <div class="skill-container">
+            <center><h3 class="skill-heading">Tools</h3></center>
+            <div class="skills-box">
+              
+
+              <div class="box first">
+                <img src="./skillimg/git.png" alt="photo" />
+                <p>Git</p>
+              </div>
+
+              <div class="box second">
+                <img src="./skillimg/vscode.png" alt="photo" />
+                <p>VS code</p>
+              </div>
+
+                           
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+    <div id="education">
+      <div class="education-section">
+        <center><h3 class="heading">Education</h3></center>
+
+        <div class="timeline">
+          <div class="event">
+            <div class="content">
+              <div class="school">
+                SVB Matric Higher Secondary School, Salem
+              </div>
+              <div class="year">2020 - 2022</div>
+
+              <div class="school-content">
+                <p>
+                  My schooling at SVBMHSS provided a strong academic foundation.
+                  Active participation in extracurricular activities helped me
+                  develop leadership and communication skills. These experiences
+                  shaped my discipline and passion for learning.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="school">
+                Government Collenge of Engineering, Salem
+              </div>
+              <div class="year">2022 - 2026</div>
+
+              <div class="school-content">
+                <p>
+                  Currently I am pursuing my B.E., Degree at Government College
+                  of Engineering, where I developing my knowledge. Engaging in
+                  projects and competitions
+                  enhanced my problem-solving and teamwork abilities. This
+                  experience has prepared me for real-world challenges in my
+                  field.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="projects">
+      <center><h3 class="heading">Projects</h3></center>
+      <div class="project-container">
+        <div class="cards">
+
+          <div class="project-card">
+            <img src="./projectimg/travelmate.png" alt="Project Image" />
+            <div class="project-info">
+              <h3>TravelMate AI</h3>
+              <p>
+                Created Travel Mate AI as Team, which suggests destinations based on user preferences like region and interest. It provides personalized travel recommendations for a better experience.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Python</span>
+              </div>
+              <div class="buttons">
+                <a href="https://travelmate-d3zf.onrender.com/" target="_blank" class="project-btn live"
+                  >Live Demo</a
+                >
+                <a href="https://github.com/Lokeshvenkateshan/TravelMate.git" target="_blank" class="project-btn github"
+                  >GitHub</a
+                >
+              </div>
+  
+            </div>
+          </div>
+
+
+          <div class="project-card">
+            <img src="./projectimg/gemini.png" alt="Project Image" />
+            <div class="project-info">
+              <h3>Gemini Clone</h3>
+              <p>
+                Developed a Gemini clone using React.js with Firebase for authentication. It offers AI-powered responses and a secure login system for user interactions.
+              </p>
+              <div class="tech-stack">
+                <span>React js</span>
+                <span>CSS</span>
+                <span>Firebase</span>
+              </div>
+              <div class="buttons">
+                <a href="https://geminiclone-ecru.vercel.app" target="_blank" class="project-btn live"
+                  >Live Demo</a
+                >
+                <a href="https://github.com/Lokeshvenkateshan/Gemini-clone.git" target="_blank" class="project-btn github"
+                  >GitHub</a
+                >
+              </div>
+  
+            </div>
+          </div>
+
+
+
+          <div class="project-card">
+            <img src="./projectimg/dictionary.png" alt="Project Image" />
+            <div class="project-info">
+              <h3>E-Dictionary</h3>
+              <p>
+                Developed an E-Dictionary with voice support, allowing users to hear their pronunciation. It provides meanings and examples for better understanding.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+              <div class="buttons">
+                <a href="https://lokeshvenkateshan.github.io/dictionary" target="_blank" class="project-btn live"
+                  >Live Demo</a
+                >
+                <a href="https://github.com/Lokeshvenkateshan/dictionary.git" target="_blank" class="project-btn github"
+                  >GitHub</a
+                >
+              </div>
+  
+            </div>
+          </div>
+
+
+          <div class="project-card">
+            <img src="./projectimg/weather.png" alt="Project Image" />
+            <div class="project-info">
+              <h3>Weather Forecast</h3>
+              <p>
+                Built a real-time weather forecasting web application using API. It displays temperature, humidity, and conditions with a user-friendly interface.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+              <div class="buttons">
+                <a href="https://lokeshvenkateshan.github.io/weatherforecast/" target="_blank" class="project-btn live"
+                  >Live Demo</a
+                >
+                <a href="https://github.com/Lokeshvenkateshan/weatherforecast.git" target="_blank" class="project-btn github"
+                  >GitHub</a
+                >
+              </div>
+  
+            </div>
+          </div>
+
+
+
+          <div class="project-card">
+            <img src="./projectimg/ecommerce.png" alt="Project Image" />
+            <div class="project-info">
+              <h3>ECommerce</h3>
+              <p style="padding-top: 20px; padding-bottom: 20px;">
+                I developed a E-commerce website, which provides the frontend functionalities.
+
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="buttons">
+                <a href="https://lokeshvenkateshan.github.io/E-Commerce/" target="_blank" class="project-btn live"
+                  >Live Demo</a
+                >
+                <a href="https://github.com/Lokeshvenkateshan/E-Commerce.git" target="_blank" class="project-btn github"
+                  >GitHub</a
+                >
+              </div>
+  
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img src="./projectimg/fylo.png" alt="Project Image" />
+            <div class="project-info">
+              <h3>Fylo</h3>
+              <p style="padding-top: 10px; padding-bottom: 10px;">
+                I developed this Fylo website in a intra college Tech events. This frontend has a light and dark mode functionalities.
+
+              </p>
+              <div class="tech-stack">
+                <span>Frontend</span>
+              </div>
+              <div class="buttons">
+                <a href="https://lokeshvenkateshan.github.io/fylo/" target="_blank" class="project-btn live"
+                  >Live Demo</a
+                >
+                <a href="https://github.com/Lokeshvenkateshan/fylo.git" target="_blank" class="project-btn github"
+                  >GitHub</a
+                >
+              </div>
+  
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+    </div>
+
+    <div class="quote">
+      <center><h3>"முயற்சி திருவினையாக்கும்"</h3></center>
+    </div>
+
+
+    <div class="footer">
+      <h3>Connect !!</h3>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/lokesh-venkatesan-b991b425b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><img src="./footicon/linkedin.png" alt="linkedin" class="foot-img"></a>
+
+        <a href="https://github.com/Lokeshvenkateshan"><img src="./footicon/github.png" alt="git" class="foot-img"></a>
+
+        <a href="mailto:lokeshvenkatesan44@gmail.com"><img src="./footicon/gmail.png" alt="email" class="foot-img"></a>
+
+      </div>
+      <p> &copy; Copy Rights Reserved 2025</p>
+
+    </div>
+  </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
